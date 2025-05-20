@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/resepFragment"
+        android:icon="@drawable/resep_icon"
+        android:title="Resep" />
+    <item
+        android:id="@+id/aboutFragment"
+        android:icon="@drawable/about_icon"
+        android:title="Tentang" />
+</menu>

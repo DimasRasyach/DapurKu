@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep">
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_kategori"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="58dp"
+        android:padding="8dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btn_semua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semua"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                style="@style/ScrollCategoryButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/btn_mkn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Makanan"
+                android:layout_marginEnd="8dp"
+                style="@style/ScrollCategoryButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/btn_mnn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minuman"
+                android:layout_marginEnd="8dp"
+                style="@style/ScrollCategoryButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/btn_cmln"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cemilan"
+                android:layout_marginEnd="8dp"
+                style="@style/ScrollCategoryButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/btn_dst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dessert"
+                android:layout_marginEnd="8dp"
+                style="@style/ScrollCategoryButtonStyle"
+                />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_resep"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/scroll_kategori"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:listitem="@layout/item_resep" />
+</androidx.constraintlayout.widget.ConstraintLayout>
