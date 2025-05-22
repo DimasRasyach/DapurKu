@@ -42,7 +42,10 @@
                 android:layout_height="wrap_content"
                 android:text="Deskripsi singkat resep"
                 android:textSize="14sp"
-                android:textColor="#666"/>
+                android:textColor="#666"
+                android:maxLines="1"
+                android:ellipsize="end"
+                />
 
             <Button
                 android:id="@+id/btn_lihat_detail"

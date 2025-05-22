@@ -13,7 +13,10 @@
         android:theme="@style/Theme._2310511043_DimasRasyachNurFathi"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.detailresep"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.MainActivity"
             android:exported="true"
             android:theme="@style/Theme._2310511043_DimasRasyachNurFathi.Splash">
             <intent-filter>

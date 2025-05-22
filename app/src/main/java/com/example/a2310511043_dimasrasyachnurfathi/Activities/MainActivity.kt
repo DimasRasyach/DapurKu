@@ -1,15 +1,14 @@
-package com.example.a2310511043_dimasrasyachnurfathi
+package com.example.a2310511043_dimasrasyachnurfathi.Activities
 
-import android.app.Activity
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
+import com.example.a2310511043_dimasrasyachnurfathi.R
 import com.example.a2310511043_dimasrasyachnurfathi.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

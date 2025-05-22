@@ -8,12 +8,12 @@
 
     <fragment
         android:id="@+id/resepFragment"
-        android:name="com.example.a2310511043_dimasrasyachnurfathi.resep"
+        android:name="com.example.a2310511043_dimasrasyachnurfathi.Fragment.resep"
         tools:layout="@layout/fragment_resep" />
 
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.example.a2310511043_dimasrasyachnurfathi.aboutme"
+        android:name="com.example.a2310511043_dimasrasyachnurfathi.Fragment.aboutme"
         tools:layout="@layout/fragment_aboutme" />
 
 </navigation>
