@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.a2310511043_dimasrasyachnurfathi.Model.Resep
 import com.example.a2310511043_dimasrasyachnurfathi.R
 
@@ -18,7 +19,7 @@ class ResepAdapter(
     inner class ResepViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val imgResep: ImageView = itemView.findViewById(R.id.img_resep)
         val tvNama: TextView = itemView.findViewById(R.id.tv_nama_resep)
-        val tvDeskripsi: TextView = itemView.findViewById(R.id.tv_deskripsi_resep)
+        val tvRating: TextView = itemView.findViewById(R.id.tv_rating)
         val btnLihatDetail: Button = itemView.findViewById(R.id.btn_lihat_detail)
     }
 
@@ -29,9 +30,14 @@ class ResepAdapter(
 
     override fun onBindViewHolder(holder: ResepViewHolder, position: Int) {
         val resep = resepList[position]
-        holder.imgResep.setImageResource(resep.gambarResId)
-        holder.tvNama.text = resep.nama
-        holder.tvDeskripsi.text = resep.deskripsi
+        Glide.with(holder.itemView.context)
+            .load(resep.image)
+            .placeholder(R.drawable.ic_launcher_background)
+            .into(holder.imgResep)
+
+        holder.tvNama.text = resep.name
+        holder.tvRating.text = "Rating: ${resep.rating ?: "N/A"} ★"
+
         holder.btnLihatDetail.setOnClickListener {
             onDetailClick(resep)
         }

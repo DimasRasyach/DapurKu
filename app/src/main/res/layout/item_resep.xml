@@ -37,21 +37,18 @@
                 android:textStyle="bold"/>
 
             <TextView
-                android:id="@+id/tv_deskripsi_resep"
-                android:layout_width="wrap_content"
+                android:id="@+id/tv_rating"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Deskripsi singkat resep"
-                android:textSize="14sp"
-                android:textColor="#666"
-                android:maxLines="1"
-                android:ellipsize="end"
-                />
+                android:text="Rating: 4.6 ★"
+                android:textColor="#FFA000"
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/btn_lihat_detail"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:text="Lihat Detail"
+                android:text="Views Detail"
                 android:textAllCaps="false"
                 android:backgroundTint="@color/hijau_muda"
                 android:textColor="@android:color/white"

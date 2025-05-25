@@ -3,9 +3,9 @@
     <item
         android:id="@+id/resepFragment"
         android:icon="@drawable/resep_icon"
-        android:title="Resep" />
+        android:title="Recipes" />
     <item
         android:id="@+id/aboutFragment"
         android:icon="@drawable/about_icon"
-        android:title="Tentang" />
+        android:title="About" />
 </menu>

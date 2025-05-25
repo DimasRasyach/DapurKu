@@ -28,47 +28,65 @@
             android:gravity="center_vertical">
 
             <Button
-                android:id="@+id/btn_semua"
+                android:id="@+id/btn_all"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="semua"
+                android:text="All"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 style="@style/ScrollCategoryButtonStyle"
                 />
 
             <Button
-                android:id="@+id/btn_mkn"
+                android:id="@+id/btn_Dinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Makanan"
+                android:text="Dinner"
                 android:layout_marginEnd="8dp"
                 style="@style/ScrollCategoryButtonStyle"
                 />
 
             <Button
-                android:id="@+id/btn_mnn"
+                android:id="@+id/btn_Lunch"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Minuman"
+                android:text="Lunch"
                 android:layout_marginEnd="8dp"
                 style="@style/ScrollCategoryButtonStyle"
                 />
 
             <Button
-                android:id="@+id/btn_cmln"
+                android:id="@+id/btn_Snack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cemilan"
+                android:text="Snack"
                 android:layout_marginEnd="8dp"
                 style="@style/ScrollCategoryButtonStyle"
                 />
 
             <Button
-                android:id="@+id/btn_dst"
+                android:id="@+id/btn_Dessert"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Dessert"
+                android:layout_marginEnd="8dp"
+                style="@style/ScrollCategoryButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/btn_Appetizer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appetizer"
+                android:layout_marginEnd="8dp"
+                style="@style/ScrollCategoryButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/btn_Breakfast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breakfast"
                 android:layout_marginEnd="8dp"
                 style="@style/ScrollCategoryButtonStyle"
                 />
