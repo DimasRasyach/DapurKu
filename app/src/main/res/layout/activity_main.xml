@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/hijau">
+        android:background="@color/merah">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
                 android:id="@+id/toolbar_icon"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/logodapurku" />
+                android:src="@drawable/logodapurkukuning" />
 
             <TextView
                 android:id="@+id/toolbar_title"
@@ -49,7 +49,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@color/hijau"
+        android:background="@color/merah"
         app:itemIconTint="@color/bottom_nav_color"
         app:itemTextColor="@color/bottom_nav_color"
         />

@@ -10,7 +10,6 @@ import com.example.a2310511043_dimasrasyachnurfathi.R
 class aboutme : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
 
     override fun onCreateView(

@@ -4,4 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="hijau">#00441B</color>
     <color name="hijau_muda">#1F7D45</color>
+    <color name="kuning">#FFBC09</color>
+    <color name="orange">#FF7A46</color>
+    <color name="merah">#C62828</color>
 </resources>

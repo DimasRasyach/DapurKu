@@ -50,7 +50,7 @@
                 android:layout_height="40dp"
                 android:text="Views Detail"
                 android:textAllCaps="false"
-                android:backgroundTint="@color/hijau_muda"
+                android:backgroundTint="@color/kuning"
                 android:textColor="@android:color/white"
                 android:paddingLeft="12dp"
                 android:paddingRight="12dp"
